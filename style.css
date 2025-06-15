@@ -1,85 +1,56 @@
-* {
-  box-sizing: border-box;
-}
 body {
-  font-family: 'Segoe UI', sans-serif;
-  background: #f9f9f9;
+  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 20px;
+  padding: 0;
+  background-color: #f4f4f4;
 }
+
 .container {
-  max-width: 400px;
-  margin: auto;
-  background: white;
+  width: 50%;
+  margin: 30px auto;
   padding: 20px;
-  border-radius: 8px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
-h2, h3 {
-  margin-top: 0;
+
+h1 {
   text-align: center;
 }
-.money {
-  font-size: 18px;
+
+h3 {
+  color: #333;
 }
-.plus {
-  color: green;
+
+#balance {
+  color: #333;
+  font-size: 2rem;
 }
-.minus {
-  color: red;
-}
-.inc-exp-container {
-  display: flex;
-  justify-content: space-between;
-  margin: 20px 0;
-  padding: 10px;
-  border: 1px solid #ddd;
-}
-.list {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-.list li {
-  background: #eee;
-  padding: 10px;
-  margin: 5px 0;
-  border-right: 5px solid;
-  display: flex;
-  justify-content: space-between;
-}
-.list li.plus {
-  border-color: green;
-}
-.list li.minus {
-  border-color: red;
-}
-.form-control {
-  margin-bottom: 10px;
-}
-input, button {
+
+button {
   width: 100%;
-  padding: 8px;
-  margin-top: 5px;
-}
-.btn {
-  background: #2ecc71;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #4CAF50;
   color: white;
   border: none;
   cursor: pointer;
-}
-.btn:hover {
-  opacity: 0.9;
-}
-.radio-group {
-  display: flex;
-  gap: 2rem;
-  align-items: center;
-  margin-bottom: 10px;
+  border-radius: 5px;
 }
 
-.radio-group label {
-  display: flex;
-  align-items: center;
-  gap: 0.3rem;
-  margin: 0;
+button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
 }
